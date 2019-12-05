@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_standard"
+            android:icon="@drawable/uno"
+            android:title="@string/menu_standard"
+            android:color="@color/color1"/>
+        <item
+            android:id="@+id/menu_scientific"
+            android:icon="@drawable/dos"
+            android:title="@string/menu_scientific"
+            android:color="@color/color2"/>
+
+        <item
+            android:id="@+id/menu_mortgage"
+            android:icon="@drawable/tres"
+            android:title="@string/menu_mortgage"
+            android:color="@color/color3" />
+        <item
+            android:id="@+id/menu_currency"
+            android:icon="@drawable/cuatro"
+            android:title="@string/menu_currency"
+            android:color="@color/color4"/>
+        <item
+            android:id="@+id/menu_length"
+            android:icon="@drawable/cinco"
+            android:title="@string/menu_length"
+            android:color="@color/color5"/>
+        <item
+            android:id="@+id/menu_area"
+            android:icon="@drawable/seis"
+            android:title="@string/menu_area"
+            android:color="@color/color6"/>
+        <item
+            android:id="@+id/menu_volume"
+            android:icon="@drawable/siete"
+            android:title="@string/menu_volume"
+            android:color="@color/color7"/>
+        <item
+            android:id="@+id/menu_temperature"
+            android:icon="@drawable/ocho"
+            android:title="@string/menu_temperature"
+            android:color="@color/color8"/>
+        <item
+            android:id="@+id/menu_speed"
+            android:icon="@drawable/nueve"
+            android:title="@string/menu_speed"
+            android:color="@color/color9"/>
+        <item
+            android:id="@+id/menu_time"
+            android:icon="@drawable/diez"
+            android:title="@string/menu_time"
+            android:color="@color/color10"/>
+        <item
+            android:id="@+id/menu_mass"
+            android:icon="@drawable/once"
+            android:title="@string/menu_mass"
+            android:color="@color/color11"/>
+    </group>
+
+
+</menu>

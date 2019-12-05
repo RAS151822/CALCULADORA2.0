@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/menu_standard">
+
+    <fragment
+        android:id="@+id/menu_standard"
+        android:name="com.example.calculadorafragment.ui.home.HomeFragment"
+        android:label="@string/menu_standard"
+        tools:layout="@layout/fragment_standard"
+        android:color="@color/color1"/>
+
+    <fragment
+        android:id="@+id/menu_scientific"
+        android:name="com.example.calculadorafragment.ui.gallery.GalleryFragment"
+        android:label="@string/menu_scientific"
+        tools:layout="@layout/fragment_scientific"
+        android:color="@color/color2"/>
+
+    <fragment
+        android:id="@+id/menu_mortgage"
+        android:name="com.example.calculadorafragment.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_mortgage"
+        tools:layout="@layout/fragment_mortgage"
+        android:color="@color/color3"/>
+
+    <fragment
+        android:id="@+id/menu_currency"
+        android:name="com.example.calculadorafragment.ui.tools.ToolsFragment"
+        android:label="@string/menu_currency"
+        tools:layout="@layout/fragment_currency"
+        android:color="@color/color4"/>
+
+    <fragment
+        android:id="@+id/menu_length"
+        android:name="com.example.calculadorafragment.ui.share.ShareFragment"
+        android:label="@string/menu_length"
+        tools:layout="@layout/fragment_length"
+        android:color="@color/color5"/>
+
+    <fragment
+        android:id="@+id/menu_area"
+        android:name="com.example.calculadorafragment.ui.send.SendFragment"
+        android:label="@string/menu_area"
+        tools:layout="@layout/fragment_area"
+        android:color="@color/color6"/>
+    <fragment
+        android:id="@+id/menu_volume"
+        android:name="com.example.calculadorafragment.ui.send.SendFragment"
+        android:label="@string/menu_volume"
+        tools:layout="@layout/fragment_volume"
+        android:color="@color/color7"/>
+    <fragment
+        android:id="@+id/menu_temperature"
+        android:name="com.example.calculadorafragment.ui.send.SendFragment"
+        android:label="@string/menu_temperature"
+        tools:layout="@layout/fragment_temperature"
+        android:color="@color/color8"/>
+    <fragment
+        android:id="@+id/menu_speed"
+        android:name="com.example.calculadorafragment.ui.send.SendFragment"
+        android:label="@string/menu_speed"
+        tools:layout="@layout/fragment_speed"
+        android:color="@color/color9"/>
+    <fragment
+        android:id="@+id/menu_time"
+        android:name="com.example.calculadorafragment.ui.send.SendFragment"
+        android:label="@string/menu_time"
+        tools:layout="@layout/fragment_time"
+        android:color="@color/color10"/>
+    <fragment
+        android:id="@+id/menu_mass"
+        android:name="com.example.calculadorafragment.ui.send.SendFragment"
+        android:label="@string/menu_mass"
+        tools:layout="@layout/fragment_mass"
+        android:color="@color/color11"/>
+</navigation>
